@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Test-react/static/css/main.5195de0b.chunk.css",
+    "main.js": "/Test-react/static/js/main.912a15fc.chunk.js",
+    "main.js.map": "/Test-react/static/js/main.912a15fc.chunk.js.map",
+    "runtime~main.js": "/Test-react/static/js/runtime~main.65abd536.js",
+    "runtime~main.js.map": "/Test-react/static/js/runtime~main.65abd536.js.map",
+    "static/css/2.618267d1.chunk.css": "/Test-react/static/css/2.618267d1.chunk.css",
+    "static/js/2.405c7cd2.chunk.js": "/Test-react/static/js/2.405c7cd2.chunk.js",
+    "static/js/2.405c7cd2.chunk.js.map": "/Test-react/static/js/2.405c7cd2.chunk.js.map",
+    "static/js/3.1af95c37.chunk.js": "/Test-react/static/js/3.1af95c37.chunk.js",
+    "static/js/3.1af95c37.chunk.js.map": "/Test-react/static/js/3.1af95c37.chunk.js.map",
+    "index.html": "/Test-react/index.html",
+    "precache-manifest.2acccf800eda67f2812693be34b6e992.js": "/Test-react/precache-manifest.2acccf800eda67f2812693be34b6e992.js",
+    "service-worker.js": "/Test-react/service-worker.js",
+    "static/css/2.618267d1.chunk.css.map": "/Test-react/static/css/2.618267d1.chunk.css.map",
+    "static/css/main.5195de0b.chunk.css.map": "/Test-react/static/css/main.5195de0b.chunk.css.map",
+    "static/media/index.css": "/Test-react/static/media/PT_Sans-Web-Regular.f2eadd43.ttf",
+    "static/media/Popup.module.css": "/Test-react/static/media/close-popup-mobile.6d7f30d3.svg",
+    "static/media/Questions.module.css": "/Test-react/static/media/button-plus.7f29c1be.svg",
+    "static/media/check-up.png": "/Test-react/static/media/check-up.e489a763.png",
+    "static/media/NavMenuMobile.module.css": "/Test-react/static/media/close-mobile.6d7f30d3.svg",
+    "static/media/Header.module.css": "/Test-react/static/media/menu-icon.b01b4e1d.svg",
+    "static/media/Footer.module.css": "/Test-react/static/media/whatsapp-footer.599e6081.svg",
+    "static/media/styles.css": "/Test-react/static/media/right-arrow.1a793cb5.svg",
+    "static/media/logo-footer.svg": "/Test-react/static/media/logo-footer.c6d34798.svg",
+    "static/media/logo.svg": "/Test-react/static/media/logo.cbbfacf6.svg",
+    "static/media/MainInfo.module.css": "/Test-react/static/media/mainpic-mobile.9822204a.png",
+    "static/media/SliderBlock.module.css": "/Test-react/static/media/slider-mobile.43213242.png"
+  }
+}
