@@ -36,4 +36,4 @@
 
 ---
 
-[Ссылка на деплой проекта.]()
+[Ссылка на хостинг.](https://leilasuleimanova.github.io/Test-react/)
