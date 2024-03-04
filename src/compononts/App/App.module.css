@@ -1,0 +1,23 @@
+.page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-family: "PT Sans Caption", Arial, sans-serif;
+  min-height: 100vh;
+  max-width: 1920px;
+  min-width: 375px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 374px;
+    min-width: 320px;
+  }
+}

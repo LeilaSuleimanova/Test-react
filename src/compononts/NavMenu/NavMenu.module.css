@@ -1,0 +1,40 @@
+.nav {
+  max-height: 43px;
+  background-color: rgba(31, 161, 129, 1);
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_links {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  width: 482px;
+  padding: 0;
+  transform: translateX(-68%);
+}
+
+.nav_text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.nav_text:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav_links {
+    transform: translateX(-28%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+}

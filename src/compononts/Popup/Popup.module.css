@@ -1,0 +1,251 @@
+.popup {
+  background-color: rgba(69, 146, 127, 1);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.popup_active {
+  background-color: rgba(69, 146, 127, 1);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  transition: 0.4s;
+  opacity: 1;
+  align-items: center;
+}
+
+.header {
+  display: none;
+}
+
+.popup_box {
+  display: flex;
+  width: 1140px;
+  height: 350px;
+  background-color: rgba(248, 251, 250, 1);
+  border-radius: 5px;
+  position: relative;
+  gap: 138px;
+}
+
+.close_button {
+  background-image: url(../../images/button-close.svg);
+  background-size: contain;
+  margin-top: -44px;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.text_content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 96px;
+  margin-left: 98px;
+  color: rgba(54, 72, 68, 1);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  max-width: 350px;
+  line-height: 47px;
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 354px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  gap: 16px;
+}
+
+.input {
+  box-sizing: border-box;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 2px;
+  padding: 10px 20px 10px 16px;
+  min-width: 452px;
+  max-height: 41px;
+}
+
+.input::placeholder {
+  color: rgb(134, 134, 134);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.submit_button {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 16px;
+  width: 196px;
+  min-height: 43px;
+  border-radius: 50px;
+  border: none;
+  background: rgb(13, 188, 145);
+  cursor: pointer;
+  padding: 0;
+}
+
+.submit:hover {
+  background: #00d29f;
+}
+
+@media screen and (max-width: 767px) {
+  .popup {
+    margin-top: 65px;
+    width: 375px;
+    align-items: normal;
+    transition: 0s;
+  }
+
+  .popup_active {
+    max-width: 375px;
+    flex-direction: column;
+    top: 0;
+    transition: 0s;
+  }
+
+  .header {
+    display: flex;
+    background-color: rgba(246, 246, 246, 1);
+    min-width: 375px;
+    position: absolute;
+    padding-bottom: 14px;
+    top: 0;
+  }
+
+  .button_close {
+    background-image: url(../../images/close-mobile.svg);
+    width: 29px;
+    height: 29px;
+    margin-top: 22.5px;
+    margin-left: 24px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: rgba(246, 246, 246, 1);
+    background-repeat: no-repeat;
+  }
+
+  .logo {
+    width: 73px;
+    height: 18px;
+    margin: 0;
+    padding-left: 39px;
+    padding-top: 24px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 17px;
+    top: 14px;
+    align-items: flex-end;
+  }
+
+  .phone {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(54, 72, 68, 1);
+    margin: 0;
+  }
+
+  .city {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0;
+    color: rgba(54, 72, 68, 1);
+    margin-top: -4px;
+  }
+
+  .popup_box {
+    width: 340px;
+    height: 433px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .text_content {
+    gap: 8px;
+    margin-top: 22px;
+    margin-left: 23px;
+    padding-bottom: 0;
+  }
+
+  .title {
+    font-size: 26px;
+    max-width: 267px;
+    line-height: 34px;
+    margin: 0;
+    padding-bottom: 4px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 21px;
+    width: 229px;
+    padding-bottom: 40px;
+  }
+
+  .form {
+    margin-top: 0;
+    gap: 8px;
+  }
+
+  .input {
+    min-width: 295px;
+    padding-left: 11px;
+  }
+
+  .input::placeholder {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .close_button {
+    background-image: url(../../images/close-popup-mobile.svg);
+    margin-top: 22px;
+    margin-right: 22px;
+  }
+
+  .submit_button {
+    width: 137px;
+  }
+}

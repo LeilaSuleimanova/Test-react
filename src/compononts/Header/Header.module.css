@@ -1,0 +1,157 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  min-height: 67px;
+  align-self: center;
+}
+
+.button_menu {
+  display: none;
+}
+
+.logo {
+  width: 91.04px;
+  height: 30px;
+  margin-right: 20.55px;
+  margin-top: 21.62px;
+}
+
+.address {
+  flex-direction: row;
+  display: flex;
+  width: 133px;
+  height: 38px;
+  margin-right: 487px;
+  margin-top: 15px;
+}
+
+.address_text {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  margin-top: 1px;
+}
+
+.location_image {
+  background-image: url(../../images/icon-location.svg);
+  width: 20px;
+  height: 20px;
+}
+
+.address_city {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  color: rgba(54, 72, 68, 1);
+  padding-left: 3px;
+}
+
+.address_street {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(134, 134, 134, 1);
+  margin: 0;
+  padding-left: 4px;
+}
+
+.whatsapp_icon {
+  background-image: url(../../images/icon-whatsapp.png);
+  width: 28px;
+  height: 28px;
+  margin-right: 9px;
+  margin-top: 20px;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  width: 196px;
+  height: 43px;
+  background-color: rgba(13, 188, 145, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.button:hover {
+  background: rgba(0, 210, 159, 1);
+}
+
+.phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 35px;
+  margin-top: 22px;
+  color: rgba(54, 72, 68, 1);
+}
+
+@media screen and (max-width: 1200px) {
+  .address {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    max-width: 374px;
+    min-width: 320px;
+    position: relative;
+    background-color: rgba(246, 246, 246, 1);
+  }
+
+  .button_menu {
+    background-image: url(../../images/menu-icon.svg);
+    min-width: 37px;
+    max-height: 26px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 17px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: rgba(246, 246, 246, 1);
+  }
+
+  .logo {
+    width: 73px;
+    height: 18px;
+    margin: 0;
+    padding-left: 43px;
+    padding-top: 24px;
+  }
+
+  .address_city {
+    position: absolute;
+    right: 19px;
+    top: 33px;
+    font-size: 13px;
+  }
+
+  .phone {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .location_image {
+    display: none;
+  }
+
+  .whatsapp_icon {
+    display: none;
+  }
+
+  .address_street {
+    display: none;
+  }
+}
