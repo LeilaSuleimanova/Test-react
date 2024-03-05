@@ -101,10 +101,12 @@
   .nav_links {
     gap: 15px;
     flex-direction: column;
-    margin-left: -26px;
+    margin-left: -12px;
     padding-top: 79px;
     padding-left: 0;
     padding-bottom: 41px;
+    min-width: 320px;
+    max-width: 320px;
   }
 
   .nav_text {

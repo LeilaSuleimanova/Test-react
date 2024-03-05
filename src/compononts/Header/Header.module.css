@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    max-width: 374px;
+    max-width: 375px;
     min-width: 320px;
     position: relative;
     background-color: rgba(246, 246, 246, 1);
