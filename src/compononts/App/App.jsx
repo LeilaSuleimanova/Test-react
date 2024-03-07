@@ -10,12 +10,12 @@ import Questions from "../Questions/Questions";
 const App = () => {
   return (
     <div className={styles.page}>
-      <Header></Header>
-      <NavMenu></NavMenu>
-      <MainInfo></MainInfo>
-      <Questions></Questions>
-      <Slider></Slider>
-      <Footer></Footer>
+      <Header />
+      <NavMenu />
+      <MainInfo />
+      <Questions />
+      <Slider />
+      <Footer />
     </div>
   );
 };

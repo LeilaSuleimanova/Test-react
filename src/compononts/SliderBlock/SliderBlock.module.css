@@ -97,7 +97,7 @@
   width: 196px;
   height: 43px;
   border-radius: 50px;
-  position: absolute;
+  /* position: absolute; */
   top: 433px;
   left: -357px;
   z-index: 3;
@@ -117,7 +117,7 @@
   cursor: pointer;
   z-index: 3;
   top: 431px;
-  position: absolute;
+  /* position: absolute; */
   left: -149px;
 }
 
